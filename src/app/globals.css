@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0b0f19;
-  --foreground: #f8fafc;
+  --background: #f1f5f9;
+  --foreground: #0f172a;
 }
 
 body {
@@ -10,39 +10,41 @@ body {
   color: var(--foreground);
 }
 
-/* Compact React H5 Audio Player custom overrides */
+/* Compact React H5 Audio Player custom overrides - Light/Bright Theme */
 .compact-audio-player .rhap_container {
-  background-color: #1e293b !important; /* bg-slate-800 */
-  border-color: #334155 !important; /* border-slate-700 */
+  background-color: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
   padding: 6px 12px !important;
-  box-shadow: none !important;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06) !important;
   border-radius: 0.5rem;
 }
 .compact-audio-player .rhap_time {
-  color: #94a3b8 !important; /* text-slate-400 */
+  color: #475569 !important;
   font-size: 0.75rem !important;
+  font-weight: 600;
 }
 .compact-audio-player .rhap_progress-bar {
-  height: 4px !important;
-  background-color: #334155 !important;
+  height: 5px !important;
+  background-color: #e2e8f0 !important;
 }
 .compact-audio-player .rhap_progress-filled {
-  background-color: #3b82f6 !important; /* bg-blue-500 */
+  background-color: #2563eb !important;
 }
 .compact-audio-player .rhap_download-progress {
-  background-color: #475569 !important; /* bg-slate-600 */
+  background-color: #cbd5e1 !important;
 }
 .compact-audio-player .rhap_progress-indicator {
-  width: 10px !important;
-  height: 10px !important;
-  top: -3px !important;
-  background-color: #3b82f6 !important; /* bg-blue-500 */
+  width: 12px !important;
+  height: 12px !important;
+  top: -4px !important;
+  background-color: #2563eb !important;
+  box-shadow: 0 0 0 2px #dbeafe !important;
 }
 .compact-audio-player .rhap_main-controls-button {
-  color: #3b82f6 !important; /* bg-blue-500 */
-  font-size: 24px !important;
-  width: 24px !important;
-  height: 24px !important;
+  color: #2563eb !important;
+  font-size: 26px !important;
+  width: 26px !important;
+  height: 26px !important;
 }
 .compact-audio-player .rhap_controls-section {
   margin-top: 0 !important;

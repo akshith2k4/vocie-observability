@@ -16,7 +16,7 @@ export default function AudioPlayer({ src }: AudioPlayerProps) {
         showJumpControls={false}
         customAdditionalControls={[]}
         customVolumeControls={[]}
-        className="rounded-lg border border-slate-700 bg-slate-800 text-slate-200"
+        className="rounded-lg border border-slate-200 bg-white text-slate-700"
       />
     </div>
   );
