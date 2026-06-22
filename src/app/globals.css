@@ -1,26 +1,53 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0b0f19;
+  --foreground: #f8fafc;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Compact React H5 Audio Player custom overrides */
+.compact-audio-player .rhap_container {
+  background-color: #1e293b !important; /* bg-slate-800 */
+  border-color: #334155 !important; /* border-slate-700 */
+  padding: 6px 12px !important;
+  box-shadow: none !important;
+  border-radius: 0.5rem;
+}
+.compact-audio-player .rhap_time {
+  color: #94a3b8 !important; /* text-slate-400 */
+  font-size: 0.75rem !important;
+}
+.compact-audio-player .rhap_progress-bar {
+  height: 4px !important;
+  background-color: #334155 !important;
+}
+.compact-audio-player .rhap_progress-filled {
+  background-color: #3b82f6 !important; /* bg-blue-500 */
+}
+.compact-audio-player .rhap_download-progress {
+  background-color: #475569 !important; /* bg-slate-600 */
+}
+.compact-audio-player .rhap_progress-indicator {
+  width: 10px !important;
+  height: 10px !important;
+  top: -3px !important;
+  background-color: #3b82f6 !important; /* bg-blue-500 */
+}
+.compact-audio-player .rhap_main-controls-button {
+  color: #3b82f6 !important; /* bg-blue-500 */
+  font-size: 24px !important;
+  width: 24px !important;
+  height: 24px !important;
+}
+.compact-audio-player .rhap_controls-section {
+  margin-top: 0 !important;
+  flex: 0 0 auto !important;
+}
+.compact-audio-player .rhap_progress-section {
+  margin-top: 0 !important;
 }
