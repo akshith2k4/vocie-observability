@@ -127,7 +127,7 @@ export default function Dashboard() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-b border-slate-300 pb-6">
           <div>
             <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600">
-              Narad Observability
+              Krish Observability
             </h1>
             <p className="mt-2 text-slate-600 text-sm md:text-base">
               Real-time telemetry, conversation flows, and latencies for AI voice sessions.
@@ -216,8 +216,8 @@ export default function Dashboard() {
                 key={status}
                 onClick={() => setStatusFilter(status)}
                 className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold border capitalize transition-all whitespace-nowrap ${statusFilter === status
-                    ? 'bg-blue-600 border-blue-600 text-white shadow-sm'
-                    : 'bg-white border-slate-300 text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                  ? 'bg-blue-600 border-blue-600 text-white shadow-sm'
+                  : 'bg-white border-slate-300 text-slate-600 hover:text-slate-900 hover:bg-slate-100'
                   }`}
               >
                 {status}
